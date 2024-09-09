@@ -1,0 +1,6 @@
+﻿  Building Custom Rule D:/Self-Learning/openGL/glfw-3.3.8/tests/CMakeLists.txt
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(248,5): warning MSB8065: Custom build for item "D:\Self-Learning\openGL\glfw-3.3.8\tests\CMakeLists.txt" succeeded, but specified output "d:\self-learning\opengl\glfw-3.3.8\build\tests\cmakefiles\generate.stamp" has not been created. This may cause incremental build to work incorrectly.
+  joysticks.c
+  glad_gl.c
+  Generating Code...
+  joysticks.vcxproj -> D:\Self-Learning\openGL\glfw-3.3.8\build\tests\Debug\joysticks.exe

@@ -1,0 +1,10 @@
+^D:\SELF-LEARNING\OPENGL\GLFW-3.3.8\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Self-Learning/openGL/glfw-3.3.8 -BD:/Self-Learning/openGL/glfw-3.3.8/build --check-stamp-file D:/Self-Learning/openGL/glfw-3.3.8/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
